@@ -1,0 +1,25 @@
+@import "../variable.scss";
+
+.container {
+  opacity: 0.6;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1033;
+  height: 48px;
+  width: 48px;
+  border-radius: 4px;
+  background-color: $mainColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 1;
+  }
+
+  .up {
+    font-size: 36px;
+  }
+}

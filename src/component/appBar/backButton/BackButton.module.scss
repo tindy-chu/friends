@@ -1,0 +1,27 @@
+@import "../../variable.scss";
+
+.container {
+  margin-left: 16px;
+  float: left;
+  height: 100%;;
+  display: flex;
+  align-items: center;
+
+  .click {    
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    .back {
+      color: $mainColor;
+      font-size: 24px;
+    }
+  }
+}
