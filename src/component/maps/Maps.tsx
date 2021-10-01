@@ -15,5 +15,5 @@ function Maps({ lat = 0, lng = 0, google }: TProps) {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyA2sU2T8SBciTM9IU-2lcLPnYbccuJQsb4",
+  apiKey: process.env.REACT_APP_GOOGLE_MAP_KEY || "",
 })(Maps);
